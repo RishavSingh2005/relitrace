@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local working data (never commit users' uploads)
+*.zip
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+relitrace_outputs/**
+!relitrace_outputs/reports/
+!relitrace_outputs/reports/.gitkeep
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

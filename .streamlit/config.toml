@@ -1,0 +1,3 @@
+# Aligned to the application CSV limit.
+[server]
+maxUploadSize = 20
