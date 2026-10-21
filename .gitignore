@@ -7,6 +7,8 @@ venv/
 .env
 .env.*
 !.env.example
+/secrets.toml
+/.streamlit/secrets.toml
 
 # Local working data (never commit users' uploads)
 *.zip
